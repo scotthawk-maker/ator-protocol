@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   relay:
-    image: anon
+    image: svforte/anon:latest
     init: true
     restart: always
     ports:
